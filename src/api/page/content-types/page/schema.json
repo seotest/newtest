@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "Zeit": {
+      "displayName": "Öffnungszeiten",
+      "type": "component",
+      "repeatable": false,
+      "component": "mo.oeffnungszeiten"
+    }
+  }
+}
